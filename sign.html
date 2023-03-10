@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>我的網站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--引用CSS做背景-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>注冊一個你的賬號</h1>
+        <p>test</p>
+      </div>
+      <form action="#">
+        <label for="fname">name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Please enter your name">
+        <br>
+        <label for="lname">name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please enter your name">
+
+        <br>
+        <label for="email">email or Phone number</label>
+        <input type="text" id="email" name="email" placeholder="请输入您的电子邮件或电话号码">
+
+        <br>
+        <label for="psw">新密码</label>
+        <input type="password" id="psw" name="psw" placeholder="请输入您的新密码">
+
+        <br>
+        <label for="bday">出生日期</label>
+        <input type="date" id="bday" name="bday">
+
+        <p>性别</p>
+        <div class="gender">
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">女</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">男</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">其他</label>
+        </div>
+
+        <button type="submit">注册</button>
+      </form>
+    </div>
+  </body>
+</html>
